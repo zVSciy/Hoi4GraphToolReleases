@@ -12,9 +12,9 @@ This repository serves **exclusively** as the official distribution point for th
 
 ## Downloading the Software
 
-You can download the latest version of the HOI4 Analyzer GUI from the **[Releases section](https://github.com/<PUBLIC_REPO_OWNER>/<PUBLIC_REPO_NAME>/releases)** of this repository.
+You can download the latest version of the HOI4 Analyzer GUI from the **[Releases section](https://github.com/zVSciy/Hoi4GraphToolReleases/releases)** of this repository.
 
-1.  Go to the [**Releases**](https://github.com/<PUBLIC_REPO_OWNER>/<PUBLIC_REPO_NAME>/releases) tab (or click the link above).
+1.  Go to the [**Releases**](https://github.com/zVSciy/Hoi4GraphToolReleases/releases) tab (or click the link above).
 2.  Find the latest release (usually the top entry).
 3.  Expand the "Assets" section for the release.
 4.  Download the executable file (e.g., `HOI4_Analyzer.exe` for Windows).
