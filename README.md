@@ -19,6 +19,3 @@ You can download the latest version of the HOI4 Analyzer GUI from the **[Release
 3.  Expand the "Assets" section for the release.
 4.  Download the executable file (e.g., `HOI4_Analyzer.exe` for Windows).
 
-## License
-
-License information for the distributed software can be found in the Release Notes or within the application itself, if specified.
