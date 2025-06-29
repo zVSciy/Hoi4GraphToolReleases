@@ -120,26 +120,6 @@ Compare the output with the hash provided in the release notes.
 - **Application**: Wherever you downloaded the executable
 - **No Installation Required**: Portable application
 
-## FAQ
-
-<details>
-<summary><strong>Q: Does this work with modded HOI4?</strong></summary>
-<br>
-A: Yes, the analyzer works with most HOI4 modifications. Select the appropriate game version when starting collection.
-</details>
-
-<details>
-<summary><strong>Q: Is my data sent anywhere?</strong></summary>
-<br>
-A: No, all data processing is done locally on your machine. No internet connection is required during analysis.
-</details>
-
-<details>
-<summary><strong>Q: Can I analyze old save files?</strong></summary>
-<br>
-A: The application is designed for real-time collection. For existing saves, you would need to load and play them while collection is active.
-</details>
-
 ## Issues & Support
 
 Found a bug or have a feature request?
