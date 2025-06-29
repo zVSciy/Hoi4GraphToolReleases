@@ -1,50 +1,162 @@
-# HOI4 Analyzer GUI - Public Releases
+<div align="center">
 
-## About the Project
+# HOI4 Analyzer GUI
 
-The HOI4 Analyzer GUI is a desktop application developed to facilitate the analysis of save games or other data for the game Hearts of Iron IV.
+**A powerful desktop application for analyzing Hearts of Iron IV gameplay data**
 
-## Purpose of This Repository
+[![Latest Release](https://img.shields.io/github/v/release/zVSciy/Hoi4GraphToolReleases?style=for-the-badge)](https://github.com/zVSciy/Hoi4GraphToolReleases/releases)
+[![Downloads](https://img.shields.io/github/downloads/zVSciy/Hoi4GraphToolReleases/total?style=for-the-badge)](https://github.com/zVSciy/Hoi4GraphToolReleases/releases)
+[![License](https://img.shields.io/badge/License-Private-red?style=for-the-badge)](#)
 
-This repository serves **exclusively** as the official distribution point for the **publicly available builds (releases)** of the HOI4 Analyzer GUI application.
+[Download](https://github.com/zVSciy/Hoi4GraphToolReleases/releases) • [Report Bug](https://github.com/zVSciy/Hoi4GraphToolReleases/issues)
 
-**It does NOT contain the source code of the application.** The source code is managed in a separate, private repository.
+</div>
 
-## Downloading the Software
+---
 
-You can download the latest version of the HOI4 Analyzer GUI from the **[Releases section](https://github.com/zVSciy/Hoi4GraphToolReleases/releases)** of this repository.
+## About
 
-1.  Go to the [**Releases**](https://github.com/zVSciy/Hoi4GraphToolReleases/releases) tab (or click the link above).
-2.  Find the latest release (usually the top entry).
-3.  Expand the "Assets" section for the release.
-4.  Download the executable file (e.g., `HOI4_Analyzer.exe` for Windows).
+The HOI4 Analyzer GUI is a sophisticated desktop application designed to capture, analyze, and visualize gameplay data from Hearts of Iron IV. Transform your gaming sessions into detailed insights with interactive graphs and comprehensive data analysis.
 
-## How to Use the Application
+> **Note:** This repository contains only the public releases. Source code is maintained in a private repository.
 
-### Step 1: Choose HOI4 Version and Start Collection
+## Features
 
-1. **Launch the Application**: Run the downloaded `HOI4_Analyzer.exe` executable.
-2. **Select HOI4 Version**: Choose your Hearts of Iron IV version from the available options.
-3. **Start Data Collection**: Click on "Start Collection" to begin monitoring your HOI4 game data.
+### **Real-time Data Collection**
+- Monitor your HOI4 gameplay in real-time
+- Automatic data capture during gaming sessions
+- Support for multiple HOI4 versions
 
-### Step 2: Play HOI4 and Generate Data
+### **Interactive Visualizations**
+- Generate dynamic, interactive graphs
+- Customizable data filters and views
+- Export capabilities for further analysis
 
-- Play Hearts of Iron IV as usual while the analyzer is running.
-- The application will collect data from your gameplay session.
+### **Easy to Use**
+- Simple, intuitive interface
+- One-click data collection start/stop
+- Automatic file detection and processing
 
-### Step 3: Locate the Output File
+### **Secure & Reliable**
+- SHA256 hash verification for all releases
+- No internet connection required during gameplay
+- Local data processing only
 
-After your gaming session, you can find the generated data file:
-- Navigate to your **HOI4 game files directory**
-- Look for the **`output.txt`** file that contains the collected data
+## Screenshots
 
-### Step 4: View and Analyze Graphs
+### Main Interface
+![Main Interface](/assets/Overview.png)
+*The clean, intuitive main interface of HOI4 Analyzer GUI*
 
-1. **Select the Output File**: In the analyzer application, browse and select the `output.txt` file you want to analyze.
-2. **Choose Filters**: Apply your preferred filters to customize the data visualization.
-3. **View Graphs**: The application will generate interactive graphs based on your selected data and filters.
+### Data Collection in Progress
+![Data Collection](/assets/Live%20Dashboard.png)
+*Real-time monitoring of your HOI4 gameplay session*
 
-## Verification
+### Interactive Graphs
+![Graph Visualization](/assets/Military%20IC.png)
+*Rich, interactive graphs with customizable filters*
 
-Each release includes a **SHA256 hash** in the release description for security verification. You can verify the integrity of the downloaded file by comparing its SHA256 hash with the one provided in the release notes.
+### Filter Options
+![Filter Panel](/assets/File%20Comparison.png)
+*Comprehensive filtering options for detailed analysis*
+
+## Quick Start
+
+### Download
+
+1. Navigate to the **[Releases](https://github.com/zVSciy/Hoi4GraphToolReleases/releases)** section
+2. Download the latest `HOI4_Analyzer.exe` from the Assets
+3. Verify the download using the provided SHA256 hash
+
+### Usage
+
+#### **Step 1: Setup**
+```
+1. Launch HOI4_Analyzer.exe
+2. Select your Hearts of Iron IV version
+3. Click "Start Collection"
+```
+
+#### **Step 2: Play & Collect**
+```
+1. Launch Hearts of Iron IV
+2. Play normally while the analyzer runs
+3. Data is automatically collected in the background
+```
+
+#### **Step 3: Analyze**
+```
+1. Locate output.txt in your HOI4 directory
+2. Load the file in the analyzer
+3. Apply filters and view interactive graphs
+```
+
+## System Requirements
+
+| Component | Requirement |
+|-----------|------------|
+| **OS** | Windows 10/11 (64-bit) |
+| **Memory** | 4 GB RAM minimum |
+| **Storage** | 100 MB free space |
+| **HOI4** | Any supported version |
+
+## Security & Verification
+
+Each release includes a **SHA256 hash** for integrity verification:
+
+```bash
+# Windows PowerShell
+Get-FileHash "HOI4_Analyzer.exe" -Algorithm SHA256
+
+# Command Prompt
+certutil -hashfile "HOI4_Analyzer.exe" SHA256
+```
+
+Compare the output with the hash provided in the release notes.
+
+## File Locations
+
+- **Output Data**: `{HOI4_Installation_Directory}/output.txt`
+- **Application**: Wherever you downloaded the executable
+- **No Installation Required**: Portable application
+
+## FAQ
+
+<details>
+<summary><strong>Q: Does this work with modded HOI4?</strong></summary>
+<br>
+A: Yes, the analyzer works with most HOI4 modifications. Select the appropriate game version when starting collection.
+</details>
+
+<details>
+<summary><strong>Q: Is my data sent anywhere?</strong></summary>
+<br>
+A: No, all data processing is done locally on your machine. No internet connection is required during analysis.
+</details>
+
+<details>
+<summary><strong>Q: Can I analyze old save files?</strong></summary>
+<br>
+A: The application is designed for real-time collection. For existing saves, you would need to load and play them while collection is active.
+</details>
+
+## Issues & Support
+
+Found a bug or have a feature request?
+- [Create an issue](https://github.com/zVSciy/Hoi4GraphToolReleases/issues)
+- Include your system info and steps to reproduce
+
+## License
+
+This software is proprietary. Source code is not publicly available.
+
+---
+
+<div align="center">
+
+**Made with care for the HOI4 Community**
+
+**Star this repo if you find it useful!**
+
+</div>
 
