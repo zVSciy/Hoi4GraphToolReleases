@@ -91,15 +91,6 @@ The HOI4 Analyzer GUI is a sophisticated desktop application designed to capture
 3. Apply filters and view interactive graphs
 ```
 
-## System Requirements
-
-| Component | Requirement |
-|-----------|------------|
-| **OS** | Windows 10/11 (64-bit) |
-| **Memory** | 4 GB RAM minimum |
-| **Storage** | 100 MB free space |
-| **HOI4** | Any supported version |
-
 ## Security & Verification
 
 Each release includes a **SHA256 hash** for integrity verification:
